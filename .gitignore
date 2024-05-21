@@ -1,0 +1,143 @@
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode iOS specific
+*.xcworkspace
+!default.xcworkspace
+*.xcuserstate
+!default.xcuserstate
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+Podfile.swn
+Podfile.swp
+Podfile.swo
+Pods.xcodeproj/
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Code Injection
+.bp/
+
+# AppCode
+.idea/
+
+# SPM
+.build/
+
+# Objective-C/Swift specific
+*.swp
+*.swo
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Bundler
+/.bundle/
+
+# Personal Xcode user settings
+xcuserdata/
+
+# User-specific
+*.rsync
+profile
+
+# Operating system specific
+*.DS_Store
+
+# Prevent committing Xcode 11 files
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/
+xcuserdata
+
+# Prevent committing code signing
+*.p12
+
+# App Icon
+AppIcon.appiconset
+
+# Caches
+Carthage/Checkouts
+Carthage/Build
+
+# Temporary
+*.tmp
+*.temp
+*.TMP
+
+# Build generated files
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Swift Package Manager artifacts
+.swiftpm
+.swiftpm/xcode
+.swiftpm/xcode/xcshareddata
+.swiftpm/xcode/xcuserdata
+Packages/
+
+# Dependency directories
+/Carthage/
+/Pods/
+/Dependencies/
+/SPM/
+/fastlane/
+
+# Derived data
+DerivedData/
+
+# Logs
+*.log
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Xcode Archive
+*.xcarchive
+
+# Others
+*~
+*.swp
+*.swo
